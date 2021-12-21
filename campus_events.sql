@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 20, 2021 at 06:20 PM
+-- Generation Time: Dec 21, 2021 at 04:33 PM
 -- Server version: 10.4.21-MariaDB
 -- PHP Version: 8.0.12
 
@@ -118,8 +118,8 @@ CREATE TABLE `participent` (
 --
 
 INSERT INTO `participent` (`usn`, `name`, `batch`, `sem`, `email`, `phone`, `dept`, `password`) VALUES
-('1814351102', 'Khaled Saifullah', '20', '8', 'ksnirobasia@gmail.com', '0987644', 'cse', 'MTIzNDU2'),
-('1814351082', 'Tarek Mahmud', '43', '8', 'mobarak@gmail.com', '01830681075', 'cse', 'MTIzNDU2');
+('1814351102', 'Khaled Saifullah', '20', '8', 'ksnirobasia@gmail.com', '01830681074', 'cse', 'MTIzNDU2'),
+('1814351082', 'Tarek Mahmud', '43', '8', 'tarekmahmud@gmail.com', '01830681075', 'cse', 'MTIzNDU2');
 
 -- --------------------------------------------------------
 
@@ -141,7 +141,9 @@ INSERT INTO `registered` (`rid`, `usn`, `event_id`) VALUES
 (46, '1814351102', 1),
 (47, '1814351102', 6),
 (48, '1814351082', 1),
-(49, '1814351082', 4);
+(49, '1814351082', 4),
+(50, '1814351082', 2),
+(51, '1814351082', 5);
 
 -- --------------------------------------------------------
 
@@ -255,7 +257,7 @@ ALTER TABLE `event_info`
 -- AUTO_INCREMENT for table `registered`
 --
 ALTER TABLE `registered`
-  MODIFY `rid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=50;
+  MODIFY `rid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=52;
 
 --
 -- AUTO_INCREMENT for table `staff_coordinator`
